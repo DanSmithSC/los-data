@@ -1,0 +1,27 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.build
+
+# Ignore Files
+tsconfig.json
+package-lock.json
+
+# User Data Configuration Files
+**/data/*
+
+# Local Docker Directories
+docker
+
+# VS Code Requests
+requests.http
+
+# Serverless YAML/YML templates
+*.yaml
+*.yml
+
+# Utility Files
+create-tables-locally.js

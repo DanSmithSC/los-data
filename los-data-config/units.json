@@ -1,0 +1,686 @@
+{
+  "unit_archer": {
+    "name": "Mossbow",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_bear": {
+    "name": "Roughpaw",
+    "rarity": "Common",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_beaver_warrior": {
+    "name": "Gnawbark",
+    "rarity": "Common",
+    "role": "Defender",
+    "race": "Critters"
+  },
+  "unit_bombgobbo": {
+    "name": "Boomlin",
+    "rarity": "Common",
+    "role": "Supporter",
+    "race": "Small Folks"
+  },
+  "unit_dain": {
+    "name": "Glowbuck",
+    "rarity": "Rare",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_dragon_tamer": {
+    "name": "Wyrm Wrangler",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Warriors"
+  },
+  "unit_dwarf": {
+    "name": "Grimchop",
+    "rarity": "Common",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_fairy": {
+    "name": "Foulsprite",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_firedragon": {
+    "name": "Cinder Wyrm",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Wyrms"
+  },
+  "unit_firegiant": {
+    "name": "Fire Strider",
+    "rarity": "Epic",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_forest_troll": {
+    "name": "Rock Gronch",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_fox": {
+    "name": "Redguard",
+    "rarity": "Common",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_frog": {
+    "name": "Croaker",
+    "rarity": "Rare",
+    "role": "Supporter",
+    "race": "Critters"
+  },
+  "unit_gast": {
+    "name": "Ghast",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_gloson": {
+    "name": "Tusker",
+    "rarity": "Common",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_greendragon": {
+    "name": "Flame Wyrm",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Wyrms"
+  },
+  "unit_greenman": {
+    "name": "Vinebeard",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Spirits"
+  },
+  "unit_hobling": {
+    "name": "Hobling",
+    "rarity": "Rare",
+    "role": "Supporter",
+    "race": "Small Folks"
+  },
+  "unit_landwight": {
+    "name": "Elfling",
+    "rarity": "Common",
+    "role": "Supporter",
+    "race": "Small Folks"
+  },
+  "unit_lightninggoat": {
+    "name": "Cracklehoof",
+    "rarity": "Rare",
+    "role": "Defender",
+    "race": "Beasts"
+  },
+  "unit_linsworm": {
+    "name": "Land Wyrm",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Wyrms"
+  },
+  "unit_logi": {
+    "name": "Pyroon",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Spirits"
+  },
+  "unit_lyktgubbe": {
+    "name": "Lamp Wraith",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_lynx": {
+    "name": "Dazzlepaw",
+    "rarity": "Common",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_molewarrior": {
+    "name": "Mudscrape",
+    "rarity": "Common",
+    "role": "Supporter",
+    "race": "Critters"
+  },
+  "unit_moonmage": {
+    "name": "Moon Mage",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_raven_master": {
+    "name": "Raven Master",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_shroom": {
+    "name": "Shroomling",
+    "rarity": "Epic",
+    "role": "Defender",
+    "race": "Spirits"
+  },
+  "unit_skogsra": {
+    "name": "Sundrench",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_sunblade": {
+    "name": "Sunblade",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_sunmage": {
+    "name": "Sun Mage",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Warriors"
+  },
+  "unit_swampwyrm": {
+    "name": "Mire Wyrm",
+    "rarity": "Common",
+    "role": "Defender",
+    "race": "Wyrms"
+  },
+  "unit_taunter": {
+    "name": "Grimbash",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_toad": {
+    "name": "Bog Mage",
+    "rarity": "Rare",
+    "role": "Supporter",
+    "race": "Critters"
+  },
+  "unit_undead": {
+    "name": "Rotbite",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_valkyrie": {
+    "name": "Valkyrie",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_vildvittra": {
+    "name": "Witherwild",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_walleater": {
+    "name": "Dunder Gronch",
+    "rarity": "Epic",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_wallsmasher": {
+    "name": "Stone Fist",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_warg": {
+    "name": "Wink Warg",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Beasts"
+  },
+  "unit_warlock": {
+    "name": "Nightcast",
+    "rarity": "Common",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_wolfgirl": {
+    "name": "Gloomfang",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_cracklehoof2": {
+    "name": "Thunderhoof",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Beasts"
+  },
+  "unit_deadknight": {
+    "name": "Deadknight",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_dwarf2": {
+    "name": "Grimwall",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_stonegiant": {
+    "name": "Greenguard",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Spirits"
+  },
+  "unit_mist": {
+    "name": "Ashen Valkyrie",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_thor": {
+    "name": "Thor",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_steamhog": {
+    "name": "Steam Hog",
+    "rarity": "Rare",
+    "role": "Defender",
+    "race": "Beasts"
+  },
+  "unit_voltwyrm": {
+    "name": "Volt Wyrm",
+    "rarity": "Common",
+    "role": "Attacker",
+    "race": "Wyrms"
+  },
+  "unit_warlock2": {
+    "name": "Night Witch",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_smithy": {
+    "name": "Bellowkin",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Critters"
+  },
+  "unit_bonelord": {
+    "name": "Bone Juggler",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Wights"
+  },
+  "unit_hessian": {
+    "name": "Decaptain",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_fireeater": {
+    "name": "Potstomp",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_welldweller": {
+    "name": "Well Dweller",
+    "rarity": "Common",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_blazeling": {
+    "name": "Blazelin",
+    "rarity": "Rare",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_eldering": {
+    "name": "Elderling",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Small Folks"
+  },
+  "unit_grizzletoof": {
+    "name": "Grizzletoof",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Critters"
+  },
+  "unit_kraken": {
+    "name": "Kraken",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Beasts"
+  },
+  "unit_wispwight": {
+    "name": "Wispwight",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_mimir": {
+    "name": "Mimir",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_roughclaw": {
+    "name": "Bearserker",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_poolking": {
+    "name": "Anuraxe",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Critters"
+  },
+  "unit_ratkin": {
+    "name": "Silvertail",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_muninn": {
+    "name": "Muninn",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Critters"
+  },
+  "unit_snailo": {
+    "name": "Stoutshell",
+    "rarity": "Rare",
+    "role": "Defender",
+    "race": "Beasts"
+  },
+  "unit_warulf": {
+    "name": "Warulf",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_cagewight": {
+    "name": "Cage Wight",
+    "rarity": "Epic",
+    "role": "Defender",
+    "race": "Wights"
+  },
+  "unit_fafnir": {
+    "name": "Fafnir",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Wyrms"
+  },
+  "unit_knighthoof": {
+    "name": "Galefax",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Beasts"
+  },
+  "unit_ragnarooster": {
+    "name": "Ragnarooster",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_jormungandr": {
+    "name": "Jormungandr",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Wyrms"
+  },
+  "unit_bonedragon": {
+    "name": "Helwyrm",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Wyrms"
+  },
+  "unit_twinwyrm": {
+    "name": "Twin Wyrm",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Wyrms"
+  },
+  "unit_siren": {
+    "name": "Siren",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Wyrms"
+  },
+  "unit_heimdall": {
+    "name": "Heimdall",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Warriors"
+  },
+  "unit_rattlemage": {
+    "name": "Rattle Mage",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_celeste": {
+    "name": "Welkin",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_freya": {
+    "name": "Freya",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Warriors"
+  },
+  "unit_wyrmbot": {
+    "name": "Mekawyrm",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Wyrms"
+  },
+  "unit_norns": {
+    "name": "Norns",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Spirits"
+  },
+  "unit_blightwyrm": {
+    "name": "Blight Wyrm",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Wyrms"
+  },
+  "unit_forestguardian": {
+    "name": "Growbuck",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_tarfur": {
+    "name": "Tarfur",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_threetails": {
+    "name": "Tendertails",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_nightfang": {
+    "name": "Gleamfang",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Spirits"
+  },
+  "unit_gullinbursti": {
+    "name": "Gullinbursti",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_flamekin": {
+    "name": "Flamekin",
+    "rarity": "Common",
+    "role": "Defender",
+    "race": "Small Folks"
+  },
+  "unit_sharpmaster": {
+    "name": "Knivling",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_hugin": {
+    "name": "Huginn",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Critters"
+  },
+  "unit_axehead": {
+    "name": "Bonebow",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Wights"
+  },
+  "unit_meteorfist": {
+    "name": "Titan Mitt",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Critters"
+  },
+  "unit_odin": {
+    "name": "Odin",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_crystalwyrm": {
+    "name": "Blitz Wyrm",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Wyrms"
+  },
+  "unit_sarimner": {
+    "name": "Särimner",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_hootclaw": {
+    "name": "Shieldwing",
+    "rarity": "Rare",
+    "role": "Defender",
+    "race": "Beasts"
+  },
+  "unit_baldur": {
+    "name": "Baldur",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_beetleboy": {
+    "name": "Beetling",
+    "rarity": "Common",
+    "role": "Attacker",
+    "race": "Beasts"
+  },
+  "unit_skadi": {
+    "name": "Skadi",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_hedgehog": {
+    "name": "Sunspine",
+    "rarity": "Common",
+    "role": "Defender",
+    "race": "Critters"
+  },
+  "unit_candyguy": {
+    "name": "Vexer",
+    "rarity": "Rare",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_juggler": {
+    "name": "Fadeling",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_brokk": {
+    "name": "Brokk",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Warriors"
+  },
+  "unit_smokefist": {
+    "name": "Farcast",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Small Folks"
+  },
+  "unit_duskpaw": {
+    "name": "Duskpaw",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Beasts"
+  },
+  "unit_flutter": {
+    "name": "Miasmal",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Spirits"
+  },
+  "unit_tyr": {
+    "name": "Tyr",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Warriors"
+  },
+  "unit_harpdude": {
+    "name": "Nix",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Wights"
+  },
+  "unit_idun": {
+    "name": "Idun",
+    "rarity": "Mythical",
+    "role": "Supporter",
+    "race": "Spirits"
+  },
+  "unit_catbat": {
+    "name": "Mogbat",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Beasts"
+  },
+  "unit_njord": {
+    "name": "Njord",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Spirits"
+  },
+  "unit_narga": {
+    "name": "Narga Wyrm",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Wyrms"
+  },
+  "unit_bombwyrm": {
+    "name": "Blastilisk",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Wyrms"
+  }
+}
