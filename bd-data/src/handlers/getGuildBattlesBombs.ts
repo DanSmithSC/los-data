@@ -172,9 +172,8 @@ const getBossData = async (
     event.data.damageType === 'Battle' &&
     event.seq > lastRecordedEvent 
   )
-  const guildBossBattles = newBossBattles.length ? newBossBattles.map( (battle, index) => {
   
-    
+  const guildBossBattles = newBossBattles.length ? newBossBattles.map( (battle, index) => {
     let round;
     
     if( lastRecordedDungeonRound >= circuit){
@@ -183,7 +182,7 @@ const getBossData = async (
 
     if( lastRecordedDungeonRound < circuit){
       
-      index < indexOfMinCondensedBattlesBossOrder || battle.data.levelId.slice(-6,-3) === '004' ? round = lastRecordedDungeonRound : round = circuit
+      index < indexOfMinCondensedBattlesBossOrder || battle.data.levelId !== null && battle.data.levelId.slice(-6,-3) === '004' ? round = lastRecordedDungeonRound : round = circuit
 
     }
      
@@ -200,15 +199,14 @@ const getBossData = async (
       finished: battle.data.currentHp === 0 ? true : false, 
       season: currentLeaderboardSeason,
       circuit: round,
-      world: battle.data.levelId ? parseInt(battle.data.levelId.slice(-8,-7)) : null,
-      boss: battle.data.levelId ? `${round}_${bossTargets[battle.data.levelId].boss}`: null,
-      target: battle.data.levelId ? `${round}_${bossTargets[battle.data.levelId].target}`: null,
+      world: battle.data.levelId !== null ? parseInt(battle.data.levelId.slice(-8,-7)) : null,
+      boss: battle.data.levelId !== null ? `${round}_${bossTargets[battle.data.levelId].boss}`: null,
+      target: battle.data.levelId !== null ? `${round}_${bossTargets[battle.data.levelId].target}`: null,
       date: new Date(battle.timestamp).toLocaleDateString('en-US', {timeZone: "America/Chicago"}),
       seq: battle.seq
     } 
   }) : []
   
-    
   const condensedBombsBossOrder = guildBossData.filter( event => 
     event.type === 'GuildBossEncounterCompleted' &&
     event.data.damageType === 'Bomb' &&

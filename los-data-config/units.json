@@ -682,5 +682,17 @@
     "rarity": "Mythical",
     "role": "Attacker",
     "race": "Wyrms"
+  },
+  "unit_leafy": {
+    "name": "Twigwind",
+    "rarity": "Epic",
+    "role": "Attacker",
+    "race": "Spirits"
+  },
+  "unit_sleipnir": {
+    "name": "Sleipnir",
+    "rarity": "Mythical",
+    "role": "Attacker",
+    "race": "Beasts"
   }
 }
