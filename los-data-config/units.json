@@ -694,5 +694,35 @@
     "rarity": "Mythical",
     "role": "Attacker",
     "race": "Beasts"
+  },
+  "unit_boostlin": {
+    "name": "Boostlin",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Small Folks"
+  },
+  "unit_bashlin": {
+    "name": "Big Banglin",
+    "rarity": "Legendary",
+    "role": "Supporter",
+    "race": "Small Folks"
+  },
+  "unit_goblindefender": {
+    "name": "Blocklin",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Critters"
+  },
+  "unit_lakewyrm": {
+    "name": "Great Lake Wyrm",
+    "rarity": "Mythical",
+    "role": "Defender",
+    "race": "Wyrms"
+  },
+  "unit_proudwyrm": {
+    "name": "Dawyn Wyrm",
+    "rarity": "Epic",
+    "role": "Supporter",
+    "race": "Wyrms"
   }
 }
