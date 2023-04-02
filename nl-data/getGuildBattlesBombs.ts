@@ -136,13 +136,7 @@ const getBossData = async (
   currentLeaderboardSeason: number,
   circuit: number
 ) => {
-  console.log(
-    sessionId,
-    lastRecordedEvent,
-    lastRecordedDungeonRound,
-    currentLeaderboardSeason,
-    circuit
-  );
+  // console.log(sessionId, lastRecordedEvent, lastRecordedDungeonRound, currentLeaderboardSeason, circuit)
 
   const eventsURL = `https://channel-live.thor.snowprintstudios.com/events/lp/userId/${USER_ID}/sessionId/${sessionId}`;
 
@@ -170,6 +164,12 @@ const getBossData = async (
       'X-Unity-Version': '2019.2.21f1',
     },
   });
+
+  const isDaylightSavingTime = (date: Date) => {
+    let jan = new Date(date.getFullYear(), 0, 1).getTimezoneOffset();
+    let jul = new Date(date.getFullYear(), 6, 1).getTimezoneOffset();
+    return Math.max(jan, jul) !== date.getTimezoneOffset();
+  };
 
   const guildBossData = response.data.events.guildboss;
 
@@ -222,6 +222,12 @@ const getBossData = async (
             : (round = circuit);
         }
 
+        const timestampDSTAdjusted = isDaylightSavingTime(
+          new Date(battle.timestamp)
+        )
+          ? battle.timestamp - 3600000
+          : battle.timestamp;
+
         // console.log(battle.seq, battle.data.damageDealt, round, battle.data.levelId )
         return {
           eventId: battle.eventId,
@@ -247,7 +253,7 @@ const getBossData = async (
             battle.data.levelId !== null
               ? `${round}_${bossTargets[battle.data.levelId].target}`
               : null,
-          date: new Date(battle.timestamp).toLocaleDateString('en-US', {
+          date: new Date(timestampDSTAdjusted).toLocaleDateString('en-US', {
             timeZone: 'America/New_York',
           }),
           seq: battle.seq,
@@ -300,6 +306,12 @@ const getBossData = async (
             ? (round = lastRecordedDungeonRound)
             : (round = circuit);
         }
+
+        const timestampDSTAdjusted = isDaylightSavingTime(
+          new Date(bomb.timestamp)
+        )
+          ? bomb.timestamp - 3600000
+          : bomb.timestamp;
         // console.log(bomb.seq, bomb.data.damageDealt, round, bomb.data.levelId )
 
         return {
@@ -310,7 +322,7 @@ const getBossData = async (
           damage: bomb.data.damageDealt,
           guildBossEncounterType: bomb.data.guildBossEncounterType,
           levelId: bomb.data.levelId,
-          date: new Date(bomb.timestamp).toLocaleDateString('en-US', {
+          date: new Date(timestampDSTAdjusted).toLocaleDateString('en-US', {
             timeZone: 'America/New_York',
           }),
           season: currentLeaderboardSeason,
@@ -376,7 +388,7 @@ module.exports.getGuildBattlesBombs = async (event: any) => {
   console.log(event);
   const { sessionId, lastGuildBossEventId, lastRecordedEvent, round } = event;
 
-  // console.log(sessionId)
+  console.log(sessionId);
 
   const auth = new sheets.auth.GoogleAuth({
     keyFilename: path.join(

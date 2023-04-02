@@ -724,5 +724,17 @@
     "rarity": "Epic",
     "role": "Supporter",
     "race": "Wyrms"
+  },
+  "unit_huldra": {
+    "name": "Huldra",
+    "rarity": "Legendary",
+    "role": "Defender",
+    "race": "Small Folks"
+  },
+  "unit_mara": {
+    "name": "Mara",
+    "rarity": "Legendary",
+    "role": "Attacker",
+    "race": "Wights"
   }
 }
